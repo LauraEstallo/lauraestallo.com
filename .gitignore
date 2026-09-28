@@ -4,3 +4,6 @@ node_modules/
 
 # Material de marca original (no se publica)
 Branding visual de clínicas/
+
+# Configuración local de vista previa
+.claude/
