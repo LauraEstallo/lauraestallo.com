@@ -1,152 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Laura Estallo · Marketing digital para clínicas</title>
-<meta name="description" content="Marketing digital para clínicas. Próximamente.">
-
-<link rel="icon" href="assets/favicon/favicon-32x32.png" sizes="32x32">
-<link rel="icon" href="assets/favicon/favicon-192x192.png" sizes="192x192">
-<link rel="apple-touch-icon" href="assets/favicon/favicon-180x180.png">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
-
-<style>
-:root{
-  /* Principales */
-  --le-tinta:#14282A;
-  --le-agua:#D8E9E7;
-  --le-azul:#2E6F78;
-  --le-hueso:#F7FAF9;
-  /* Secundarios */
-  --le-salvia:#AFD2CE;
-  --le-cielo:#C7DCEC;
-  --le-arena:#EFE7DA;
-  --le-piedra:#8FA6A6;
-  /* Tipografía */
-  --le-display:'Bebas Neue', sans-serif;
-  --le-text:'Montserrat', sans-serif;
-}
-
-*{box-sizing:border-box;}
-
-body{
-  margin:0;
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  font-family:var(--le-text);
-  font-weight:300;
-  line-height:1.7;
-  color:var(--le-tinta);
-  background:var(--le-hueso);
-}
-
-/* 60 % hueso de fondo · 30 % agua en el bloque central · 10 % azul de acento */
-main{
-  flex:1;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:48px 24px;
-}
-
-.tarjeta{
-  width:100%;
-  max-width:620px;
-  background:var(--le-agua);
-  border-radius:4px;
-  padding:72px 48px;
-  text-align:center;
-}
-
-.logo{
-  width:min(320px, 80%);
-  height:auto;
-  margin:0 auto 40px;
-  display:block;
-}
-
-.eyebrow{
-  font-family:var(--le-text);
-  font-weight:600;
-  font-size:11px;
-  letter-spacing:0.26em;
-  text-transform:uppercase;
-  color:var(--le-azul);
-  margin:0 0 20px;
-}
-
-h1{
-  font-family:var(--le-display);
-  font-weight:400;
-  font-size:clamp(40px, 8vw, 68px);
-  line-height:0.9;
-  letter-spacing:0.02em;
-  text-transform:uppercase;
-  margin:0 0 24px;
-}
-
-.regla{
-  width:56px;
-  height:2px;
-  background:var(--le-azul);
-  border:0;
-  margin:0 auto 24px;
-}
-
-p.entradilla{
-  font-size:16px;
-  max-width:42ch;
-  margin:0 auto 36px;
-}
-
-a.contacto{
-  font-weight:500;
-  font-size:15px;
-  color:var(--le-azul);
-  text-decoration:none;
-  border-bottom:1px solid var(--le-piedra);
-  padding-bottom:2px;
-  transition:border-color .2s ease;
-}
-a.contacto:hover{border-color:var(--le-azul);}
-
-footer{
-  padding:24px;
-  text-align:center;
-  font-size:12px;
-  letter-spacing:0.04em;
-  color:var(--le-piedra);
-}
-
-@media (max-width:600px){
-  .tarjeta{padding:56px 28px;}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Estallo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --le-tinta: #14282A;
+      --le-hueso: #F7FAF9;
+      --le-azul:  #2E6F78;
+      --le-display: 'Bebas Neue', sans-serif;
+      --le-text: 'Montserrat', sans-serif;
+    }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: var(--le-text); font-weight: 300; line-height: 1.7; background: var(--le-hueso); color: var(--le-tinta); }
+    main { text-align: center; padding: 2rem; }
+    h1 { font-family: var(--le-display); font-weight: 400; font-size: clamp(44px, 9vw, 72px); line-height: 0.9; letter-spacing: 0.02em; text-transform: uppercase; margin: 0 0 1rem; }
+    p { font-weight: 600; font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: var(--le-azul); margin: 0; }
+  </style>
 </head>
 <body>
-
-<main>
-  <div class="tarjeta">
-    <img class="logo" src="assets/img/logotipo-horizontal.svg" alt="Laura Estallo · Marketing digital para clínicas">
-
-    <p class="eyebrow">Próximamente</p>
-    <h1>Estamos preparando algo</h1>
-    <hr class="regla">
-    <p class="entradilla">
-      Marketing digital para clínicas. La web estará disponible muy pronto.
-      Mientras tanto, puedes escribirme.
-    </p>
-
-    <a class="contacto" href="mailto:laura@lauraestallo.com">laura@lauraestallo.com</a>
-  </div>
-</main>
-
-<footer>© 2026 Laura Estallo</footer>
-
+  <main>
+    <h1>Laura Estallo</h1>
+    <p>Próximamente</p>
+  </main>
 </body>
 </html>
