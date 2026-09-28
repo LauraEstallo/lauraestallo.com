@@ -1,0 +1,22 @@
+:root {
+  /* Principales */
+  --le-tinta: #14282A;
+  --le-agua:  #D8E9E7;
+  --le-azul:  #2E6F78;
+  --le-hueso: #F7FAF9;
+  /* Secundarios */
+  --le-salvia: #AFD2CE;
+  --le-cielo:  #C7DCEC;
+  --le-arena:  #EFE7DA;
+  --le-piedra: #8FA6A6;
+  /* Tipografía */
+  --le-display: 'Bebas Neue', sans-serif;
+  --le-text: 'Montserrat', sans-serif;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600&display=swap'); */
+
+h1, h2, h3 { font-family: var(--le-display); font-weight: 400; line-height: 0.9; letter-spacing: 0.02em; text-transform: uppercase; }
+body { font-family: var(--le-text); font-weight: 400; line-height: 1.7; color: var(--le-tinta); background: var(--le-hueso); }
+.le-eyebrow { font-family: var(--le-text); font-weight: 600; font-size: 11px; letter-spacing: 0.26em; text-transform: uppercase; color: var(--le-azul); }
+a { color: var(--le-azul); }
